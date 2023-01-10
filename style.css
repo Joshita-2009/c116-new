@@ -1,0 +1,15 @@
+h3{
+          font-size: 25px;
+}
+.btn-success.hover{
+          background-color: red;
+}
+canvas{
+          animation-name: filter;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+}
+@keyframes filter{
+          from{box-shadow: red;}
+          to{box-shadow: yellow;}
+}
