@@ -14,7 +14,7 @@ poseNet.on('pose', gotPoses);
 }
 function draw(){
 image(video, 0, 0, 300, 300);
-image(lips, lipX-30, lipY+50, 50, 50);
+image(lips, lipX-30, lipY+30, 50, 50);
 
 }
 function modelLoaded(){
